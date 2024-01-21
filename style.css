@@ -26,8 +26,7 @@ main{
     background-color: var(--VerydarkbluemainBG);
 }
 #crypto{
-    max-width: 360px;
-    /* max-height: 620px; */
+    max-width: 320px;
     background-color: var(--VerydarkbluecardBG);
     display: flex;
     flex-direction: column;
@@ -45,7 +44,7 @@ h2{
 }
 .image{
     width: 90%;
-    min-height: 360px;
+    min-height: 320px;
     background-color: var(--Cyan);
     background-image: url(images/image-equilibrium.jpg);
     background-position: center;
@@ -102,4 +101,7 @@ h2{
             border:1px white solid;
             border-radius: 50%;
         }
+}
+@media (min-width:1920) and (orientation:landscape) {
+    #crypto{max-width: none;}
 }
