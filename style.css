@@ -45,7 +45,7 @@ h2{
 }
 .image{
     width: 90%;
-    height: 360px;
+    min-height: 360px;
     background-color: var(--Cyan);
     background-image: url(images/image-equilibrium.jpg);
     background-position: center;
