@@ -26,6 +26,7 @@ main{
     background-color: var(--VerydarkbluemainBG);
 }
 #crypto{
+    max-width: 360px;
     background-color: var(--VerydarkbluecardBG);
     display: flex;
     flex-direction: column;
