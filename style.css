@@ -27,6 +27,7 @@ main{
 }
 #crypto{
     max-width: 360px;
+    max-height: 620px;
     background-color: var(--VerydarkbluecardBG);
     display: flex;
     flex-direction: column;
